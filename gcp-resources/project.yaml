@@ -6,7 +6,7 @@ metadata:
     upjet.upbound.io/manual-intervention: Requires organization level IAM permissions
   labels:
     testing.upbound.io/example-name: project
-  name: crossplane-project
+  name: project
 spec:
   forProvider:
     name: project
