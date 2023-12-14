@@ -10,11 +10,11 @@ spec:
       - bootDisk:
           initializeParams:
             image: projects/inlaid-fire-408102/global/images/family/debian-11
-          autoDelete: true
-          sizeGb: 10
+            autoDelete: true
+            sizeGb: 10
     networkInterfaces:
       - accessConfigs:
-          - name: allow-tcp
+          - name: allow-tcp  # Indent this line by two spaces
             type: ONE_TO_ONE_NAT
-          network: global/networks/default
+          - network: global/networks/default
 
